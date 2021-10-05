@@ -1,0 +1,28 @@
+#More_Images
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+#More_Images .T_shirtChoice
+{
+    width:250px;
+    height:300px;
+}
+.T_shirtChoice
+{
+    width:150px;
+    height: 150px;
+    margin: 10px;
+    border: 5px ridge gray;
+    cursor:pointer;
+    transition:all 0.2s;
+}
+.T_shirtChoice:hover
+{
+    cursor:pointer;
+    box-shadow:0 0 12px 2px  gray;
+    width:160px;
+    height:160px;
+}

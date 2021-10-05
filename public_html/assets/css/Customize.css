@@ -1,0 +1,592 @@
+/*Import Styles */
+
+#Outsider
+{
+    width: 100%;
+    height: 420px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: azure;
+    align-items: center;
+}
+#tshirt_Container
+{
+    padding: 0px;
+    min-width: 260px;
+    max-width: 360px;
+    height: 80%;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+#tshirt_Container img
+{
+ 
+    position: absolute;
+    top:0;
+    left: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+}
+#svg
+{
+    
+    mix-blend-mode: multiply;
+    top:0;
+    left: 0px;
+    max-width: 100%;
+    max-height: 100%;*/
+}
+#Color_Box
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tshirt-Color
+{
+    width:50px;
+    height: 50px;
+    border: 7px ridge silver;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.tshirt-Color:hover
+{
+    transform: rotateZ(90deg);
+    cursor: pointer;
+    box-shadow: 0 0 12px 1px darkgray;
+}
+#color1
+{
+    background-color:#232121;   
+}
+#color2
+{
+    background-color:#f00000;
+}
+#color3
+{
+    background-color:#f0ff00;
+}
+#color4
+{
+    background-color:#a0db50;
+}
+#color5
+{
+    background-color:#fcfddf;
+}
+#color6
+{
+    background-color:#abcdef;
+}
+#color7
+{
+    background-color:#fcdcbf;
+}
+#color8
+{
+    background-color:#cbafed;
+}
+#color9
+{
+    background-color:#ffffff;
+}
+
+#DisignRange
+{
+    width:44%;
+    height:38%;
+    position:absolute;
+    overflow: none;
+    left:28%;
+    top:25%;
+}
+#BulkProduction
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.BulkTshirtContent
+{
+    width:20%;
+    max-height:20%;
+    border:10px ridge silver;
+    transition: all 0.4s;
+}
+.BulkTshirtContent:hover
+{
+    cursor: pointer;
+    width:22%;
+    height: 22%;
+}
+@media screen and (max-width :780px)
+{
+ 
+    .BulkTshirtContent
+    {
+        width:70%;
+        max-height:70%;
+        border:10px ridge silver;
+        transition: all 0.4s;
+    }   
+}
+/*End now */
+h1{
+  font-size : 25px;
+}
+#Customize{
+    
+    margin:10% auto;
+    width: 85vw;
+    height:36vw;
+    background: rgba(255,165,0,0.05);
+    display:flex;
+}
+#left
+{
+    width:10%; 
+    display:flex;
+    flex-direction:column;
+}
+.Disignes
+{
+    width:100%;
+    height:30%;
+    background:gray;
+    font-size:medium;
+    margin-bottom:1px;
+    cursor : pointer;
+    text-align:center;
+    font-weight:900;
+    color:aliceblue;
+    padding-top:25%;
+    transition:all 0.5s;
+}
+.Disignes:hover
+{
+    font-size:large;
+    background:black;
+    
+}
+#Middle
+{
+    position:relative;
+    background:rgba(0,0,0,0.85);
+    width:35%;
+    margin-left:1.5px;
+    display: none;
+    transition: display 0.8s;
+    overflow: auto;
+}
+
+#Right
+{
+    width:45vw;;
+}
+
+#DynamicAreaOfMiddle
+{
+    color:White;
+    font-size:large;
+    width:70%;
+    max-height:80%;
+    margin:auto;
+    overflow: auto;
+}
+
+#Right
+{
+    display:flex;
+    justify-content:center; 
+    align-content: center;
+    position:relative;
+}
+#tshirt_Container_Customize
+{
+    position: relative;
+    margin:4% 0%;
+    width:60%;
+    height:88%;
+    overflow: hidden;
+}
+
+#DisignRange_customize0
+{
+    width:100%;
+    height:50%;
+    position:absolute;
+    left:0px;
+    top:20px;
+}
+#DisignRange_customize0:hover
+{
+    border: 2.3px dotted darkgray;
+    
+}
+#DisignRange_customize0:hover .ForImageResize
+{
+    display: block;
+}
+
+#DisignRange_customize1
+{
+    width:100%;
+    height:50%;
+    position:absolute;
+    left:0px;
+    top:20px;
+}
+#DisignRange_customize1:hover
+{
+    border: 2.3px dotted darkgray;
+    
+}
+#DisignRange_customize1:hover .ForImageResize
+{
+    display: block;
+}
+#DisignRange_customize2
+{
+    width:100%;
+    height:50%;
+    position:absolute;
+    left:0px;
+    top:20px;
+}
+#DisignRange_customize2:hover
+{
+    border: 2.3px dotted darkgray;
+    
+}
+#DisignRange_customize2:hover .ForImageResize
+{
+    display: block;
+}
+#DisignRange_customize3
+{
+    width:100%;
+    height:50%;
+    position:absolute;
+    left:0px;
+    top:20px;
+}
+#DisignRange_customize3:hover
+{
+    border: 2.3px dotted darkgray;
+    
+}
+#DisignRange_customize3:hover .ForImageResize
+{
+    display: block;
+}
+#outerDisignDiv
+{
+  position: absolute;
+  width:55%;
+  height:70%;
+  top:15%;
+  left:23%;;
+  overflow:hidden;
+}
+.POSITION_CONTROL
+{
+  position: absolute;
+  left: 2.5%;
+  top:-7.5%;
+  width:95%;
+  height:95%;
+  margin:10% auto;
+}
+.POSITION_CONTROL:hover
+{
+    cursor: all-scroll;
+}
+.ForImageResize
+{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: 2px solid black;
+    display:none;
+}
+.topS
+{
+    top : -2px;
+    left: -2px;
+    cursor: nw-resize;
+}
+.topE
+{
+    top : -10px;
+    right: -2px;
+    font-weight:800;
+    border:none;
+    color:red;
+    cursor: pointer;
+}
+.BottomS
+{
+  bottom:-1px;
+  left:-1px;
+  cursor:ne-resize;
+}
+
+.BottomE
+{
+  bottom:-1px;
+  right:-1px;
+  cursor: nw-resize;
+}
+#Flaxbox
+{
+    padding:10px;
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mainDesigne
+{
+  width:40%;
+  height:8vw;
+  background:rgba(240,248,250,0.3);
+  transition:all 0.5s;
+  margin:10px;
+}
+.tshirt-Color
+{
+    width: 4vw;
+    height: 4vw;
+    border:0.5vw;
+    border-style: groove;
+    border-color: darkgray;
+}
+.mainDesigne:hover
+{
+  cursor:pointer;
+   background:rgba(240,248,250,1);
+
+}
+#fontSelect
+{
+  width:80%;
+  border-top:none;
+  background:none;
+  border-radius:50px;
+  padding:0 10px;
+  color:white;
+}
+.fontOptions
+{
+    color: black;
+    border-radius: 20px;
+}
+.InsideText
+{
+  top:30%;
+  left:10%;
+  position:absolute;
+  font-size: 20px;
+  text-align: center;
+  color:black;
+  overflow: hidden;
+}
+.InsideText:hover
+{
+    background-color: rgba(0,0,0,0.3);
+    border:1px dotted black;
+}
+.InsideText:hover .ForImageResize
+{
+    display: block;
+}
+#tshirt_Image_Customize
+{
+    width: 100%;
+    height: 100%;
+}
+#BuyOptions
+{
+  bottom:2px;
+  z-index:15;
+  width:100%;
+  height:50px;
+
+  color:black;;
+  display:flex;
+  justify-content:center;
+  position:absolute;
+}
+.cartOptions
+{
+  width:50%;
+  font-weight:700;
+  border:1px solid gray;
+  text-align:center;
+  padding:2.5%;
+  background-color:silver;
+  box-shadow:1px 1px 0px 1px ;
+}
+.cartOptions:hover{
+  cursor:pointer;
+  box-shadow:1px 1px 0px 1px inset;
+}
+.BuyNow
+{
+  background-color:Darkorange;
+}
+#BuyOptionsForMobile
+{
+  position:fixed;
+  bottom:1%;
+  left:1%;
+  z-index:25;
+  width:98%;
+  display:none;
+}
+#Middle input[type = "range"]
+{
+    width:90%
+}
+.BuyOptionBodyMobile
+{
+  display:none;
+}
+
+.BuyOptionBody{
+  display:block;
+  position:absolute;
+  bottom:11%
+}
+.BuyOptionBody button
+{
+  border-radius:10px;
+  box-shadow:0px 0px 10px black;
+} 
+.BuyOptionBody select
+{
+  border:none;
+  background:none;
+  outline:none;
+}
+@media screen and (max-width:600px)
+{
+     #Customize{
+        width: 85vw;
+        height:95vh;
+        position:relative;
+        overflow-y:auto;
+        overflow-x:hidden;
+    }
+    #Right
+    {
+      top:0%;
+      left:-12%;
+      width:125%;
+      position:absolute;
+      height:60%
+    }
+   .Disignes
+   {
+     margin:0%;
+     padding:0%;
+     width:24%;
+     height:100%;
+   }
+   #left
+   {
+     display:flex;
+     flex-direction:row;
+     top:60%;
+     position:absolute;
+     width:100%;
+     justify-content:space-between;
+     height:15%;
+     overflow:hidden;
+     padding:0%;
+   }
+   #Middle
+   {
+     position:absolute;
+     width:100%;
+     height:25%;
+     top:75%;
+     display:none;
+   }
+   #DynamicAreaOfMiddle
+  {
+      color:White;
+      font-size:large;
+      width:100%;
+      margin:auto;
+      overflow: auto;
+  }
+
+  .mainDesigne
+  {
+    width:35%;
+    height:28vw;
+    background:rgba(240,248,250,0.3);
+    transition:all 0.5s;
+    margin:10px;
+  }
+  #TextChanger
+  {
+      width:65%;
+      margin:auto;
+  }
+
+  .tshirt-Color
+  {
+      width: 8vw;
+      height: 8vw;
+      border:0.5vw;
+      border-style: groove;
+      border-color: darkgray;
+  }
+
+  .POSITION_CONTROL
+  {
+      width: 70%;
+      left:14%;
+      top:3%;
+      height: 70%;
+  }
+  #BuyOptions
+  {
+    display:none;
+  }
+
+  #BuyOptionsForMobile
+  {
+    display:flex;
+  }
+  .BuyOptionBody{
+    display:none;
+  }
+  .BuyOptionBodyMobile
+  {
+    display:block;
+    position:fixed;
+    bottom:8%;
+    left:1.5%;
+    z-index:20;
+  }
+
+  .BuyOptionBodyMobile button
+  {
+    outline:none;
+  }
+  .BuyOptionBodyMobile select
+  {
+    background:none;
+    border:none;
+    outline:none;
+  }
+}

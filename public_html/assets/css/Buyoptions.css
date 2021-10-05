@@ -1,0 +1,88 @@
+#BuyoptionsRange
+{
+    position:relative;
+    width:100%;
+    height:100px;
+}
+.BuyOptionBody
+{
+    top:15px;
+    right:2px;
+}
+.BuyOptionBody button
+{
+    border:1px dotted black;
+    box-shadow:none;
+    border-radius:3px;
+}
+#Buyoptions
+{
+    width:25%;
+    z-index:5;
+    right:2px;
+}
+#ProductDetailsForm
+{
+    position:fixed;width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    top:0px;
+    z-index:20;
+    color:white;
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+#ProductDetailsForm #close
+{
+    position:absolute;
+    top:10px;
+    right:30px;
+    font-weight:1000;
+    font-size:20px;
+    color:greenyellow;
+    cursor :pointer;
+}
+#ProductDetailsForm #FillDetails
+{
+    width:70%;
+    text-align:center;
+    padding:30px;
+}
+#ProductDetailsForm #FillDetails  #FillForm
+{
+    padding:30px;
+    background:rgba(255,255,255,0.1);
+    width:50%; 
+}
+
+#ProductDetailsForm #FillDetails #setCenter
+{
+    display:flex;
+    justify-content:center;
+}
+#ProductDetailsForm #FillDetails  #FillForm .inputBox
+{
+    width:100%;
+    margin:20px 0px;
+    padding:10px;
+}
+#ProductDetailsForm #FillDetails  #FillForm #SellProduct
+{
+    padding:10px;
+    border-radius:30px;
+    background:orange;
+    color:azure;
+}
+
+@media screen and (max-width:600px)
+{
+     #ProductDetailsForm #FillDetails  
+    {
+        width:100%;
+    }
+    #ProductDetailsForm #FillDetails  #FillForm
+    {
+        width:100%   
+    }
+}

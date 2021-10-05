@@ -1,0 +1,445 @@
+#ShowChoicesForCustomize
+{
+    top:0;
+    position: fixed;
+    z-index: 20;
+    width:100vw;
+    height: 110vh;
+    background: rgba(0,0,0,0.9);
+    place-items:center;
+    padding-top:8%;
+    display:none;
+    overflow:auto;
+}
+#ShowChoicesForCustomize #cancleDiv
+{
+    position:absolute;
+    z-index:30;
+    top:10px;
+    right:25px;
+    color:chartreuse;
+    width:30px;
+    margin:auto;
+    border-radius:5px;
+    font-size:25px;
+    text-align:center;
+    cursor:pointer;
+}
+#ShowChoicesForCustomize #insideCenterBox
+{
+    margin:auto;
+    padding:30px;
+    background:aliceblue;
+    border-radius:50px;
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    width:90%;
+}
+#ShowChoicesForCustomize #insideCenterBox .Options
+{
+    padding:20px;
+    border:2px solid orange;
+    border-radius:30px;
+    width:250px;
+    height:320px;
+    transition: all 0.3s;
+}
+
+#ShowChoicesForCustomize #insideCenterBox img
+{
+    width:100%;
+    height:100%;
+    transition: all 0.5s;
+}
+
+#ShowChoicesForCustomize #insideCenterBox .Options:hover
+{
+    border:none;
+    cursor:pointer;
+}
+#ShowChoicesForCustomize #insideCenterBox .Options:hover img
+{
+    width:102%;
+    height:102%;
+    filter : drop-shadow(0 0 0.25rem orange);
+ 
+}
+
+.Customize_Row
+{
+  position:relative;
+  display:flex;
+  justify-content:center;
+}
+.Rough_div_Customize
+{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.Customize_collumn
+{
+  cursor :pointer;
+  margin:5% 60px;
+  position:relative;
+  width:300px;
+  height:400px;
+  overflow:hidden;
+  box-shadow:0px 0px 24px 0px black;
+  border-radius:20px;
+ }
+.Customize_collumn:hover
+{
+  background:rgba(0,0,0,0.6);
+  border-radius:20px;
+}
+.Customize_collumn h3
+{
+  font-size:20px;
+  color:white;
+}
+
+.Customize_collumn img
+{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  transition:all 0.3s;
+}
+
+.Customize_collumn #ForBack
+{
+  display:none;
+  transition:all 0.3s;
+}
+
+.Customize_collumn #ForFront
+{
+  display:block;
+  transition:all 0.5s;
+}
+
+.Customize_collumn:hover #ForFront
+{
+  display:none;
+}
+
+.Customize_collumn:hover #ForBack
+{
+  display:block;
+}
+.Customize_collumn .popup_Box
+{
+  width:100%;
+  position:absolute;
+  z-index:8;
+  background:black;
+  bottom:-45px;
+  transition:all 0.3s;
+}
+
+.Customize_collumn:hover .popup_Box
+{
+  width:100%;
+  position:absolute;
+  z-index:8;
+  background:black;
+  bottom:0px;
+  transition:all 0.3s;
+}
+.CusomizeYourOwn{
+  margin: 50px 0px;
+  position:relative;
+}
+
+.CusomizeYourOwn h3
+{
+  color:aliceblue;
+}
+.backgroundImage_ForCustomize
+{
+  position:absolute;
+  z-index:-2;
+  width:100%;
+  height:100%;
+  filter: blur(14px);
+}
+
+#MarketPlace
+{
+  margin:5% 0%;
+  width:100%;
+  position:relative;
+}
+
+#MarketPlace .background
+{
+  width:100%;
+  height:100%;
+  position:absolute;
+  filter:blur(5px);
+  z-index:-4;
+}
+#MarketPlace .For_Center
+{
+  position:relative;
+  width:80%;
+  margin:auto;
+  padding:5% 0%;
+}
+
+#MarketPlace .For_Center h3
+{
+  color:white;
+}
+#MarketPlace .For_Center .rows
+{
+  display:flex;
+  justify-content:space-around;
+  padding:20px;
+  flex-wrap:wrap;
+}
+#MarketPlace .For_Center .collumns
+{
+  background:rgba(250,250,200,0.7);
+  cursor:pointer;
+  width:200px;
+  height:200px;
+  box-shadow:2px 2px 35px 2px ;
+  border-radius:25px;
+  transition:all 0.3s;
+  position:relative;
+  overflow:hidden;
+}
+
+#MarketPlace .For_Center .collumns h4
+{
+  position:absolute;
+  color:white;
+  top:20%;
+  left:20%;
+  font-size:300%;
+  text-shadow:0 0 15px  black;
+  display:none;
+}
+#MarketPlace .For_Center .collumns:hover h4
+{
+  display:block;
+}
+
+#MarketPlace .For_Center .collumns:hover
+{
+  background:rgba(250,250,250,0.9);
+}
+
+#MarketPlace .For_Center .collumns img
+{
+  width:100%;
+  height:100%;
+  transition:all 0.3s;
+
+}
+
+#MarketPlace .For_Center .collumns:hover img
+{
+  width:105%;
+  height:105%;
+  margin-left:-2.5%;
+  margin-top:-2.5%;
+  filter:blur(10px) drop-shadow(0 0 10px darkgray );
+}
+/*Designes Selection Div*/
+#ShowDesignes
+{
+    top:0;
+    position: fixed;
+    z-index: 20;
+    width:100vw;
+    height: 110vh;
+    background: rgba(0,0,0,0.9);
+    place-items:center;
+    padding-top:8%;
+    display:none;
+    overflow:auto;
+}
+
+#ShowDesignes #cancleDiv
+{
+    position:absolute;
+    z-index:30;
+    top:10px;
+    right:25px;
+    color:chartreuse;
+    width:30px;
+    margin:auto;
+    border-radius:5px;
+    font-size:25px;
+    text-align:center;
+    cursor:pointer;
+}
+#ShowDesignes #Designe_Block
+{
+  width:90%;
+  height:75%;
+  border:5px solid gray;
+  margin:auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  overflow:auto;
+  position:relative;
+}
+
+#ShowDesignes #Designe_Block .Options
+{
+  position:relative;
+  width:200px;
+  height:200px;
+  border-radius:25px;
+  background:rgba(250,250,250,0.2);
+  transition:all 0.5s;
+  overflow:hidden;
+  margin:1%;
+  cursor:pointer;
+}
+#ShowDesignes #Designe_Block .Options img
+{
+  margin:5%;
+  width:90%;
+  
+}
+#ShowDesignes #Designe_Block .Options:hover
+{
+    cursor: pointer ;
+    border:none;
+    box-shadow:0px 0px 10px gray;
+    background:rgba(250,250,250,0.4);
+  
+}
+#Tshirt_MarketPlace .Container
+{
+    top:0;
+    position: fixed;
+    z-index: 20;
+    width:100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    place-items:center;
+    padding-top:8%;
+    display:none;
+    overflow:auto;
+}
+
+#Tshirt_MarketPlace .Container h3
+{
+  color:white;
+}
+#Tshirt_MarketPlace .Container .Customize_collumn
+{
+  background:rgba(225,255,255,0.);
+  box-shadow:0px 0px 22px 10px gray;
+}
+#Tshirt_MarketPlace .Container #cancleDiv
+{
+    position:absolute;
+    z-index:30;
+    top:10px;
+    right:25px;
+    color:chartreuse;
+    width:30px;
+    margin:auto;
+    border-radius:5px;
+    font-size:25px;
+    text-align:center;
+    cursor:pointer;
+}
+#CreateAccount
+{
+  display:none;
+}
+/*END Designes Selection Div*/
+@media screen and (max-width:700px)
+{
+  .Customize_collumn .popup_Box
+  {
+    bottom:0px;
+  }
+
+  #MarketPlace .For_Center
+  {
+    width:100%;
+  }
+  #MarketPlace .For_Center .collumns
+  {
+    
+    margin:2%;
+    width:130px;
+    height:130px;
+  }
+
+  #MarketPlace .For_Center .collumns h4
+  {
+    font-size:200%;
+    left:26%;
+  }
+  #ShowDesignes #Designe_Block .Options
+  {
+    margin:3%;
+    padding:3%;
+    width:100px;
+    height:100px;
+  }
+}
+#myCarousel
+{
+  cursor:pointer;
+  position:relative;
+  width:80%;
+  height:80vh;
+  overflow:hidden;
+  margin:auto;
+}
+#myCarousel .Crousal_Image
+{
+  width:100%;
+  height:80vh;
+}
+.UserName
+{
+  text-align:center;;
+  font-size:15px;
+  transition:all 0.5s;
+  cursor:pointer;
+}
+.UserName:hover{
+  background: rgba(0,0,0,0.54);
+}
+
+.UserName .LogoutOption
+{
+  display:block;
+
+}
+.UserName .LogoutOption
+{
+  display:none;
+  position:absolute;
+  cursor:pointer;
+}
+@media screen and (max-width:700px)
+{
+  #myCarousel
+  {
+    height:25vh;
+  }
+
+  #myCarousel .Crousal_Image
+  {
+    width:100%;
+    height:25vh;
+  }    
+}
