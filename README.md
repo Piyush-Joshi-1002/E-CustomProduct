@@ -6,5 +6,6 @@ Backend and functionality : Javascript, PHP.
 Databases : Relational(MY_SQL);
 Local Server Support :Xampp
 Additional Library or API :- jqery (AJAX), JAVASCRIPT xhttpRequest, JavaScript HTML2Canvas Library.
-FrameWork And Template_SUPPORT :- SpyStore Template, BootStrap.
-fonts-Used :- FontAwesome ,azedo-bold-webfont,et-line,glyphicons-halflings-regular,icomoon,Pe-icon-7-stroke.
+FrameWork And Template_SUPPORT :- SpyStore Template, BootStrap ,jquery-3.3.1.min.js,jquery-ui.js ,Vendor(For add billdesk).
+fonts-Used :- FontAwesome ,azedo-bold-webfont,et-line,glyphicons-halflings-regular,icomoon,Pe-icon-7-stroke,Glamourousse,Glamoury-Free,reckless_sample,MediaBlackoutDEMO.
+
